@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>NeoChat</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<div class="chat-container">
+  <h2>چت آنلاین</h2>
+  <div id="messages"></div>
+  <input id="msg" placeholder="پیام بنویسید..." onkeydown="if(event.key==='Enter')sendMessage();">
+  <button onclick="sendMessage()">ارسال</button>
+  <button onclick="logout()">خروج</button>
+</div>
+</body>
+</html>
